@@ -1,0 +1,51 @@
+body {
+    background-color: white;
+    margin: 0;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    color: white;
+    width: 100%;
+    height: 80px;
+  }
+  
+  .logo {
+    width: 160px;
+    margin-left: 60px;
+  }
+  .navLink {
+    display: flex;
+    list-style: none;
+    margin-left: 500px;
+    text-decoration: none;
+  }
+  
+  .navLink li {
+    margin: 20px;
+    font-size: 18px;
+  }
+  
+  .navLink li a {
+    text-decoration: none;
+    color:purple ;
+  }
+  
+  .subcribe {
+    display: flex;
+    list-style: none;
+    margin-right: 100px;
+  }
+  
+  .host li {
+    margin: 20px;
+    font-size: 18px;
+  }
+  
+  .host li a {
+    text-decoration: none;
+    color: white;
+  }
